@@ -4,6 +4,9 @@ dependencies:
   vite-plugin-vitepress-auto-sidebar:
     specifier: ^1.3.0
     version: 1.3.0(vite@4.3.1)(vitepress@1.0.0-alpha.73)
+  vitepress-plugin-auto-sidebar:
+    specifier: ^1.0.6
+    version: 1.0.6
 
 devDependencies:
   vitepress:
@@ -622,6 +625,11 @@ packages:
       rollup: 3.20.7
     optionalDependencies:
       fsevents: 2.3.2
+
+  /vitepress-plugin-auto-sidebar@1.0.6:
+    resolution: {integrity: sha512-/qCfzaeHkCn3G/ziCCSoEKp1uJWyfYhM+gLhi9rKSUSDdW82tOl+23b6X9ZqfyYIUjo7rs5Q0g5VKlrnfd+PNw==}
+    engines: {node: ^14.13.1 || ^16.7.0 || >=18}
+    dev: false
 
   /vitepress@1.0.0-alpha.73(@algolia/client-search@4.17.0):
     resolution: {integrity: sha512-BWK7b5yYxdA3SeBnUV+ly8vJU2MFcQhjooycLDc2AsSd07uGp+WO6J6gBmjwHuOz5hgcNa+/VxGWKKwBycdbnA==}
